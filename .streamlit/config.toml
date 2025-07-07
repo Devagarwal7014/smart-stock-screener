@@ -1,0 +1,7 @@
+[theme]
+base="dark"
+primaryColor="#00B894"                   # Teal green (financial tone)
+backgroundColor="#121212"                # Dark base
+secondaryBackgroundColor="#1E1E1E"       # Panel background
+textColor="#E0E0E0"                      # Soft white
+font="sans serif"

@@ -1,0 +1,101 @@
+/* General body and font */
+html, body, [class*="css"] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://i.ibb.co/7vjZ3Qn/finance-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #E0E0E0;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #00B894;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+/* Paragraphs */
+p, span, div {
+    color: #E0E0E0;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #00B894 !important;
+    color: white !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    border-radius: 6px !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.stButton > button:hover {
+    background-color: #00D2A8 !important;
+    cursor: pointer;
+}
+
+/* Inputs, selects, textareas */
+input, select, textarea {
+    background-color: #333 !important;
+    color: #eee !important;
+    border: 1px solid #555 !important;
+    padding: 8px !important;
+    border-radius: 4px !important;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #00B894 !important;
+    outline: none !important;
+    box-shadow: 0 0 5px #00B894 !important;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #121212 !important;
+    color: #fff !important;
+    padding-top: 1rem !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #444;
+    border-radius: 4px;
+}
+
+/* Dataframe styling */
+.stDataFrame, .css-1fbl5kx {
+    background-color: #202020 !important;
+    color: #eee !important;
+    border-radius: 8px !important;
+    padding: 1rem !important;
+}
+
+/* Links */
+a {
+    color: #00B894 !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+/* Cards / Panels */
+.streamlit-card {
+    background-color: #222 !important;
+    padding: 20px !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3) !important;
+    margin-bottom: 20px !important;
+}

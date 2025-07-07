@@ -1,0 +1,15 @@
+streamlit
+yfinance
+pandas
+plotly
+firebase-admin
+pyrebase4
+joblib
+requests
+beautifulsoup4
+tqdm
+altair
+streamlit-lottie
+textblob
+scikit-learn
+tweepy
