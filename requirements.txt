@@ -13,3 +13,5 @@ streamlit-lottie
 textblob
 scikit-learn
 tweepy
+gcloud
+setuptools
