@@ -1,6 +1,6 @@
 import streamlit as st
 import yfinance as yf
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
 # --- Import your real dashboard modules here ---
 from auth import login_signup, logout
@@ -21,6 +21,8 @@ if "show_login" not in st.session_state:
     st.session_state.show_login = False
 
 def get_live_indian_indices_ticker():
+    IST = timezone(timedelta(hours=5, minutes=30))
+    now = datetime.now(IST).strftime("%b %d, %Y, %I:%M %p")
     indices = {
         "^NSEI": "NIFTY 50",
         "^NSEBANK": "BANKNIFTY",
