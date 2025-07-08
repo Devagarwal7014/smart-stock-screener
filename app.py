@@ -619,7 +619,6 @@ def landing_page():
             Last updated: July 8, 2025 <span style="color:#39FF14;">Live</span>
           </div>
         </div>
-      </div>
     </div>
     <div class="section-title">Trading Algorithm System</div>
     <div class="section-sub">Automated, Precise, and Emotion-Free Trading</div>
