@@ -29,7 +29,6 @@ def get_live_indian_indices_ticker():
         "^BSESN": "SENSEX"
     }
     ticker_items = []
-    now = datetime.now().strftime("%b %d, %Y, %I:%M %p")
     ticker_items.append(f"<span style='color:#39FF14; font-weight:700;'>🕒 {now}</span>")
 
     for symbol, name in indices.items():
