@@ -97,7 +97,7 @@ def portfolio_tracker():
     if st.button("🔄 Refresh Portfolio"):
         if "portfolio_loaded" in st.session_state:
             del st.session_state["portfolio_loaded"]
-        st.experimental_rerun()
+        st.rerun()
 
     if not st.session_state.portfolio:
         st.info("Your portfolio is empty. Add stocks above.")
