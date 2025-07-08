@@ -619,6 +619,7 @@ def landing_page():
             Last updated: July 8, 2025 <span style="color:#39FF14;">Live</span>
           </div>
         </div>
+      </div>
     </div>
     <div class="section-title">Trading Algorithm System</div>
     <div class="section-sub">Automated, Precise, and Emotion-Free Trading</div>
@@ -673,6 +674,23 @@ def landing_page():
         <div>Precise entry and exit points with stop-loss recommendations to protect your capital.</div>
       </div>
     </div>
+    <div class="section-title" style="color:#fff;">What Our Subscribers Say</div>
+    <div class="section-sub">Join thousands of satisfied traders who have transformed their trading with Smart Stock Screener.</div>
+    <div class="testimonials-row">
+      <div class="testimonial-card">
+        <div style="font-size:1.08em; margin-bottom:0.65em;">"The entry and exit points are incredibly precise. I've seen a 32% increase in my portfolio since subscribing!"</div>
+        <div class="name">Rajesh Kumar</div>
+        <div style="color:#99a;">Swing Trader, 8 months</div>
+      </div>
+      <div class="testimonial-card">
+        <div style="font-size:1.08em; margin-bottom:0.65em;">"The risk management aspect is what sets it apart. I know exactly where to place my stop losses and take profits."</div>
+        <div class="name">Anita Patel</div>
+        <div style="color:#99a;">Forex Trader, 1 year</div>
+      </div>
+      <div class="testimonial-card">
+        <div style="font-size:1.08em; margin-bottom:0.65em;">"As a beginner, I was skeptical at first, but every trade recommendation has been educational and profitable."</div>
+        <div class="name">Vikram Singh</div>
+        <div style="color:#99a;">New Investor, 4 months</div>
       </div>
     </div>
     <div class="finalcta">
